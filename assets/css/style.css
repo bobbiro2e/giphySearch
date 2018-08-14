@@ -13,15 +13,17 @@ body {
     font-family: 'Nunito', sans-serif;
 
 }
-.img{
-    margin:10px;
-}
-.item{
-    background-color: #F6F9F5;
-    margin:10px;
-}
+
 .rating{
     color:#282C53;
     font-family: 'VT323', monospace;
 
+}
+
+.gif {
+    display: inline-block;
+    background-color:#F6F9F5;
+    padding: 5px;
+    margin:10px;
+    text-align: center;
 }

@@ -41,7 +41,7 @@ function displayGif() {
             if (results[i].rating !== "r") {
 
                 var gifDiv = $("<div>");
-                gifDiv.addClass("item d-inline-flex justify-content-around flex-wrap")
+                gifDiv.addClass("gif")
 
                 var tvshowIMG = $("<img>");
 
@@ -54,6 +54,7 @@ function displayGif() {
                 var rating = results[i].rating;
                 var p = $("<p>").text("Rating: " + rating);
                 p.addClass("rating")
+
                 gifDiv.append(tvshowIMG);
                 gifDiv.append(p);
 
