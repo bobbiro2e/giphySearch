@@ -1,0 +1,27 @@
+body {
+    background-color: #A0D0E3;
+
+}
+.jumbotron{
+    background-color:#282C53;
+    color:#F6F9F5;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.tvshow-btn{
+    margin:10px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.img{
+    margin:10px;
+}
+.item{
+    background-color: #F6F9F5;
+    margin:10px;
+}
+.rating{
+    color:#282C53;
+    font-family: 'VT323', monospace;
+
+}
